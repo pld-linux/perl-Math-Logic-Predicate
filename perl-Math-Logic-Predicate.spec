@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Logic-Predicate
+%define		pdir	Math
+%define		pnam	Logic-Predicate
 Summary:	Math::Logic::Predicate - manage and query a predicate assertion database
 Summary(pl):	Math::Logic::Predicate - zarz±dzanie i przeszukiwanie bazy danych twierdzeñ
 Name:		perl-Math-Logic-Predicate
