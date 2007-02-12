@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Logic-Predicate
 Summary:	Math::Logic::Predicate - manage and query a predicate assertion database
-Summary(pl):	Math::Logic::Predicate - zarz±dzanie i przeszukiwanie bazy danych twierdzeñ
+Summary(pl.UTF-8):   Math::Logic::Predicate - zarzÄ…dzanie i przeszukiwanie bazy danych twierdzeÅ„
 Name:		perl-Math-Logic-Predicate
 Version:	0.03
 Release:	1
@@ -26,12 +26,12 @@ the moment, it is only a subset of the predicate calculus, but by
 version 1.0 at the latest it will support the entire system. It is
 written entirely in Perl, and it's really fast, too.
 
-%description -l pl
-Math::Logic::Predicate to implementacja potrafi±ca udowadniaæ
-twierdzenia w oparciu o twierdzenia dotycz±ce rachunku predykatów
-pierwszego rzêdu (jak w Prologu). Aktualnie jest to tylko podzbiór
-rachunku predykatów, ale do wersji 1.0 powinien by³ obs³ugiwany ca³y
-system. Modu³ jest napisany w ca³kowicie w Perlu i jest naprawdê
+%description -l pl.UTF-8
+Math::Logic::Predicate to implementacja potrafiÄ…ca udowadniaÄ‡
+twierdzenia w oparciu o twierdzenia dotyczÄ…ce rachunku predykatÃ³w
+pierwszego rzÄ™du (jak w Prologu). Aktualnie jest to tylko podzbiÃ³r
+rachunku predykatÃ³w, ale do wersji 1.0 powinien byÅ‚ obsÅ‚ugiwany caÅ‚y
+system. ModuÅ‚ jest napisany w caÅ‚kowicie w Perlu i jest naprawdÄ™
 szybki.
 
 %prep
