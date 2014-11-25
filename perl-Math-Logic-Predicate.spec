@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	Logic-Predicate
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Logic::Predicate - manage and query a predicate assertion database
 Summary(pl.UTF-8):	Math::Logic::Predicate - zarządzanie i przeszukiwanie bazy danych twierdzeń
 Name:		perl-Math-Logic-Predicate
@@ -14,6 +14,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4918c427d82cb3a4d27a080f3f661040
+URL:		http://search.cpan.org/dist/Math-Logic-Predicate/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
