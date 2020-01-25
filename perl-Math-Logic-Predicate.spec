@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	Logic-Predicate
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Logic::Predicate - manage and query a predicate assertion database
 Summary(pl.UTF-8):	Math::Logic::Predicate - zarządzanie i przeszukiwanie bazy danych twierdzeń
 Name:		perl-Math-Logic-Predicate
